@@ -14,8 +14,8 @@ int[] redDotArr;  //to detect motion with less outlier
 int redDotSize = 5;
 
 int[] movementSumArr; // to see how long motion lasts
-int movementSumArrSize = 50;
-int movementThreshold = 600000; 
+int movementSumArrSize = 70;
+int movementThreshold = 1300000; 
 
 int frameIdx = 0;
  
@@ -107,7 +107,7 @@ void draw() {
  
     //If more than 45 of the 50 frames have exceeded the threshold, 
     //the action is determined to have lasted for a period of time or longer.
-    if (movementCnt > 45) {
+    if (movementCnt > 65) {
       fill(0);
       noStroke();
       rectMode(CENTER);
