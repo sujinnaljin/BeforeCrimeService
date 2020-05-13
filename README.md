@@ -53,5 +53,6 @@ if (movementCnt > 45) {
 사용 언어 : Java
 
 ## 환경 설정
-프로세싱 실행 환경에서 attackUp.mp4를 코드(`.ped`)와 같은 depth의 data 디렉토리 안에 넣어야 함
+- DetectRedcordMovement.pde : 프로세싱 실행 환경에서 attackUp.mp4를 코드(`.ped`)와 같은 depth의 data 디렉토리 안에 넣어야 함
+
 
